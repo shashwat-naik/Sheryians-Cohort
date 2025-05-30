@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(249, 245, 237); */
+    /* font-weight: 400; */
+}
