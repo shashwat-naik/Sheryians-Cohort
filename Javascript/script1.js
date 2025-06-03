@@ -236,7 +236,7 @@ if (num1 === num2 && num2 === num3) {
   console.log("Second Largest: " + num3);
 } */
 
-// Q20 Important
+// Q20 Important couldn't solve
 /* var word = prompt("Enter a word: ");
 var freq = {};
 
@@ -266,7 +266,7 @@ for (var i = 0; i < num.length; i++) {
 console.log("Number of even digit in the number " + count); */
 
 // Q22
-var age = Number(prompt("Enter age: "));
+/* var age = Number(prompt("Enter age: "));
 var salary = Number(prompt("Enter salary: "));
 
 if (age < 18) {
@@ -279,5 +279,91 @@ if (age < 18) {
   } else {
     console.log("Medium Salary");
   }
+} */
+
+// Q23 Important couldn't solve
+/* var word = prompt("Enter a word (case sensitive): ");
+var result = "";
+
+for (var i = 0; i < word.length; i++) {
+  var char = word[i];
+  if (char === char.toUpperCase()) {
+    result += char.toLowerCase();
+  } else {
+    result += char.toUpperCase();
+  }
 }
 
+console.log("Toggled Case: " + result); */
+
+// Q24 Didn't get the approach, get into it
+/* let input = prompt("Enter numbers separated by commas: "); // e.g. "1,2,3,5"
+let arr = input.split(",").map(Number);
+
+let n = arr.length + 1; // one number is missing
+let first = Math.min(...arr);
+let last = Math.max(...arr);
+
+let xorFull = 0;
+for (let i = first; i <= last; i++) {
+  xorFull ^= i;
+}
+
+let xorArr = 0;
+for (let num of arr) {
+  xorArr ^= num;
+}
+
+let missing = xorFull ^ xorArr;
+console.log("Missing number is: " + missing); */
+
+
+// Q25
+/* var num = Number(prompt("Enter a single digit: "));
+
+switch (num) {
+  case 1:
+    console.log(1 + " => One");
+    break;
+  case 2:
+    console.log(2 + " => Two");
+    break;
+  case 3:
+    console.log(3 + " => Three");
+    break;
+  case 4:
+    console.log(4 + " => Four");
+    break;
+  case 5:
+    console.log(5 + " => Five");
+    break;
+  case 6:
+    console.log(6 + " => Six");
+    break;
+  case 7:
+    console.log(7 + " => Seven");
+    break;
+  case 8:
+    console.log(8 + " => Eight");
+    break;
+  case 9:
+    console.log(9 + " => Nine");
+    break;
+  case 0:
+    console.log(0 + " => Zero");
+    break;
+  default:
+    console.log("Value entered is not valid.")
+    break;
+}
+ */
+
+// Improvement for the code
+var num = Number(prompt("Enter a single digit: "));
+var words = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"];
+
+if (num >= 0 && num <= 9) {
+  console.log(num + " => " + words[num]);
+} else {
+  console.log("Value entered is not valid.");
+}
