@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+#card {
+  border-radius: 1rem;
+  height: 27rem;
+  width: 20rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+#card img{
+  border-radius: 1rem;
+  height: 55%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#card h1{
+ font-size: 2rem;
+ margin: 0.5rem 0; 
+}
+#card h5{
+  font-size: 1.5rem;
+  color: red;
+  margin-bottom: 1rem;
+}
+#card button{
+  background-color: cadetblue;
+  color: #fff;
+  font-weight: 400;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+/* #card #remove{
+  background-color: #dadada;
+  color: #111;
+} */
+
