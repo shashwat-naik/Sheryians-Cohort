@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: cornflowerblue;
+  background-color: rgb(24, 36, 59);
 }
 #card {
   border-radius: 1rem;
@@ -50,8 +50,5 @@ body {
   margin: 5px;
   cursor: pointer;
 }
-/* #card #remove{
-  background-color: #dadada;
-  color: #111;
-} */
+
 
